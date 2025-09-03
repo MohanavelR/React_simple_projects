@@ -1,0 +1,14 @@
+
+.main-scanner{
+    min-height: 100vh;
+    background-color: rgb(18, 17, 17);
+}
+.main-scanner .scanner{
+    border: 1px solid rgb(223, 180, 180) ;
+    background-color: rgb(39, 37, 37);
+    /* flex-wrap: wrap-reverse; */
+}
+
+.img img{
+    min-width: 200px;
+}

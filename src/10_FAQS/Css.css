@@ -1,0 +1,29 @@
+.answer{
+    /* transition: min-height 0.4s ease !important; */
+    padding-left:10px !important ; 
+    transition: all 3s ease !important;
+}
+.main-faqs-container{
+    min-height: 100vh;
+    background-color: rgb(24, 6, 85);
+}
+.answer-hide{
+    height: 0;
+    overflow: hidden;
+    transition: all 3s ease !important;
+    
+}
+.question:hover{
+    background-color: rgb(77, 77, 175) !important;
+    padding-left:10px !important ;
+    /* transition: all 3s ease !important; */
+}
+.answer-show{
+   min-height: 50px;
+   
+   transition: all 3s ease !important;
+}
+.faqs-container{
+    border-radius: 20px !important;
+    transition: all 3s ease !important;
+}

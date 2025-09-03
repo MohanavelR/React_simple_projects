@@ -1,0 +1,7 @@
+.main-bmi-container{
+    min-height: 100vh;
+}
+.main-bmi-container .bmi-container{
+    border: 1px solid black;
+    background-color: rgb(8, 8, 135);
+}

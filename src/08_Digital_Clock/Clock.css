@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kalnia+Glaze:wght@100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+.main-clock-container{
+    min-height: 100vh;
+    background:linear-gradient(to right ,red,blue);
+}
+.clock-container{
+    background-color: rgb(11, 11, 57) !important;
+    color: blanchedalmond;
+    box-shadow: 0 0 2px  rgb(11, 11, 57),0 0 2px  rgb(11, 11, 57) ;
+}
+.main-clock-container .clock-container .head{
+    font-family: "Kalnia Glaze", serif;
+    font-size: 50px;
+    text-shadow: 0 0 10px white;
+}
+.main-clock-container .clock-container .date{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+    opacity: .5;
+}
+.main-clock-container .clock-container .time{
+    font-size: 25px;
+    font-family: cursive;
+    
+}

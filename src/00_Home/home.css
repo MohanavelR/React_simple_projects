@@ -1,0 +1,18 @@
+*{
+    text-decoration: none !important;
+}
+.home-container{
+    min-height: 100vh;
+    background-color: rgb(13, 13, 76);
+}
+.home-container .div-container .box{
+ font-size: larger;
+ font-weight: 600;
+}
+.home-container .div-container .box:hover{
+    background-color: rgb(48, 48, 182) !important;
+    font-size:large;
+}
+.home-container .div-container .box:active{
+    background-color: rgb(40, 31, 48) !important;
+}

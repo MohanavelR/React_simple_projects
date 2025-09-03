@@ -1,0 +1,7 @@
+.currency-main-container{
+    min-height: 100vh;
+    background-color: aqua;
+}
+.currency-main-container .currency-container .result{
+    border: 3px dotted rgb(15, 103, 138);
+}

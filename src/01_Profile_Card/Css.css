@@ -1,0 +1,28 @@
+
+.user-card{
+    /* background-color: rgb(7, 7, 82); */
+    min-height: 100vh;
+    
+}
+ .details{
+    line-height: 15px !important;
+}
+.card {
+    /* border: 1px solid black; */
+    width: 300px;
+   border: 1px solid aqua;
+    /* border-color: aqua; */
+    background-color: rgb(14, 14, 124);
+}
+.card .img{
+    width: 100px;
+    border-radius: 50px !important;
+    border: 2px solid aquamarine ;
+    padding: 5px;
+}
+.card .card-body .skill-list{
+    border: 1px solid rgb(131, 119, 119);
+    font-size: 12px;
+    /* margin: 10px 0 20px; */
+    
+}

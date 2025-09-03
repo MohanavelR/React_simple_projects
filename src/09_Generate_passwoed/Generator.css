@@ -1,0 +1,13 @@
+
+.password-main-container{
+    min-height: 100vh;
+}
+.password-container{
+    border: 2px solid aqua;
+}
+*{
+  transition: all .3s ease !important;
+}
+.alert{
+    transition: all .3s ease; 
+}

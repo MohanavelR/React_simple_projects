@@ -1,0 +1,9 @@
+table th,tr,td{
+    border-bottom: 1px solid rgb(198, 181, 181);
+    padding: 10px;
+}
+.borderd-form{
+    border: 1px solid aqua;
+    background-color: aqua;
+    /* box-shadow: 0 0 10px aquamarine; */
+}
