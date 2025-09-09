@@ -11,7 +11,7 @@ function HandleForm(e){
 }    
 return (
     <div className='p-5 d-flex  gap-3'>
-    <div className='mt-3 col-6  borderd-form p-3 rounded'>
+    <div className='mt-3 col-12 col-md-6  borderd-form p-3 rounded'>
     <div className="mb-3">
         <label htmlFor="exampleFormControlInput1" className="form-label">Name</label>
         <input type='text' value={user.name} name='name' onChange={HandleForm}   className="form-control" id="exampleFormControlInput1" placeholder="" />
@@ -41,7 +41,7 @@ return (
 
     </div>
     
-    <table className="table col p-2 rounded table-hover  ">
+    <table className="table col-12 col-md-6  p-2 rounded table-hover  ">
         <tr>
             <th>Name</th>
             <td>:</td>
