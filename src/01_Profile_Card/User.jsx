@@ -7,7 +7,7 @@ export const User = ({user}) => {
         <h6 className='m-2'><span className={`badge ${user.is_online ? "bg-warning ":"bg-secondary"} `}>{user.is_online ? "Online ":"Offline"} </span></h6>
         <div className='img-div col-12 d-flex justify-content-center align-items-center'>
 
-        <img src='images/profile.jpeg' className="card-img-top  img rounded circle " alt="..." />
+        <img src='images/profile.png' className="card-img-top  img rounded circle " alt="..." />
             </div>
         <div className="card-body text-center details">
             <h3 className="card-title">{user.name}</h3>
