@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className=' home-container text-white'>
       <h1 className='text-center '>Simple React Projectes</h1>
-      <div className='div-container p-2 mt-3 justify-content-center align-items-center d-flex flex-wrap gap-4'>   
+      <div className='div-container p-3 mt-3 justify-content-center align-items-center d-flex flex-wrap gap-4'>   
         <Link to="/profile-card" className="bg-primary col-md-4 col-12 p-4 text-center text-white rounded box box-1">Profile Card</Link>
         <Link to="/QR-generator" className="bg-primary col-md-4 col-12 p-4 text-center text-white rounded box box-2">QR-Generator</Link>
         <Link to="/userform" className="bg-primary col-md-4 col-12 p-4 text-center text-white rounded box box-3">User Form</Link>

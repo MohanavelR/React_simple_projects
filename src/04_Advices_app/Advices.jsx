@@ -5,15 +5,21 @@ import { useEffect } from 'react'
 const Advices = () => {
     const[advice,setAdvice]=useState("")
     const[count,setCount]=useState(0)
+    const [load,setLoad]=useState({
+      isLoading:false,
+    })
     async function Get_Advice(){
+        setLoad({...load,isLoading:true})
         try{
         let data=await fetch('https://api.adviceslip.com/advice');
         let res= await data.json()
         setAdvice(res.slip.advice)
         setCount(count+1) 
+        setLoad({...load,isLoading:false})
         }
         catch(error){
             setAdvice("Server Not Response Check Your  Internet ")
+            setLoad({...load,isLoading:false})
         }
 
     }
@@ -30,7 +36,9 @@ const Advices = () => {
     <>               
     <div className='advice-container text-white d-flex flex-column gap-3 justify-content-center align-items-center '>
     <div>
-    <button onClick={Get_Advice} className='btn btn-success'>Get Advice</button>
+    <button disabled={load.isLoading} onClick={Get_Advice} className='btn btn-success'>{load.isLoading ? <div class="spinner-border text-primary text-mute" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>:" Get Advice"}</button>
     </div>
     {advice?<p className='p-2 bg-primary rounded text-center '>{advice}</p>:""}
   

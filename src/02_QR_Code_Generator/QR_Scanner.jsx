@@ -24,11 +24,7 @@ export const QR_Scanner = () => {
         setLoad({ ...load, isLoading: false, message: "" });
       } catch (e) {
         setLoad({ ...load, isLoading: false, message: "" });
-        setError({
-          ...error,
-          isError: true,
-          message: "Something problem .check your NetWork",
-        });
+        
       }
     }, 2000);
   }
@@ -46,7 +42,15 @@ export const QR_Scanner = () => {
     );
   }
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    if ( ! navigator.onLine) {
+   setError({
+          ...error,
+          isError: true,
+          message: "Something went problem .check your NetWork",
+        });
+} 
+  }, []);
   return (
     <div className="d-flex flex-column justify-content-center  gap-3 align-items-center main-scanner text-white ">
       <h1>QR GENERATOR</h1>
