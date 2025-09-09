@@ -10,7 +10,7 @@ function HandleForm(e){
   setUser({...user,[name]:value})
 }    
 return (
-    <div className='p-5 d-flex  gap-3'>
+    <div className='p-5 d-flex flex-wrap  gap-3'>
     <div className='mt-3 col-12 col-md-6  borderd-form p-3 rounded'>
     <div className="mb-3">
         <label htmlFor="exampleFormControlInput1" className="form-label">Name</label>
