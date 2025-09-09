@@ -105,7 +105,7 @@ function Clear(){
          value={password}  type="text" className="form-control" id="exampleFormControlInput2" placeholder="" />
          {error && <p className=' mt-4 text-danger'>This Field is can't Write only Read and Copy Your Password</p>}         
     </div> 
-    <div className='d-flex gap-4'>
+    <div className='d-flex flex-wrap gap-4'>
         <button onClick={Generate} className="btn btn-success col-md-4 col-12">Generate</button>
         <button onClick={Copy} className="btn btn-warning col-md-4  col-12">Copy</button>
         <button onClick={Clear} className="btn btn-danger col-md-3  col-12">Clear</button>
