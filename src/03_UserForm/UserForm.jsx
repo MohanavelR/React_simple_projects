@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './UserFrom.css'
 export const UserForm = () => {
-const[user,setUser]=useState({name:"Mohan",age:21,gender:"Male",isMarried:false,country:"India"})
+const[user,setUser]=useState({name:"Your name",age:21,gender:"Male",isMarried:false,country:"India"})
 function HandleForm(e){
   let name=e.target.name
   let type=e.target.type

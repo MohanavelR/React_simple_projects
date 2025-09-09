@@ -48,7 +48,7 @@ export const Currency_Convector = () => {
       {Server &&  <div className="alert alert-danger" role="alert">
           Server is Not Response
       </div> }
-      <div className="currency-container mt-2 rounded bg-white p-3 col-7">
+      <div className="currency-container  mt-2 rounded bg-white p-3 col-12 col-md-7">
       {error &&  <div class="alert alert-danger " role="alert">
        Please Enter Valied Amount 
     </div>}
