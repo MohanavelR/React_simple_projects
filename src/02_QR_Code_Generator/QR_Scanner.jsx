@@ -19,7 +19,7 @@ export const QR_Scanner = () => {
     setLoad({ ...load, isLoading: true, message: "Loading...." });
     setTimeout(() => {
       try {
-        const urls = `http://api.qrserver.com/v1/create-qr-code/?size=${size}x${size}&data=${get_url}`;
+        const urls = `https://api.qrserver.com/v1/create-qr-code/?size=${size}x${size}&data=${get_url}`;
         setUrl(urls);
         setLoad({ ...load, isLoading: false, message: "" });
       } catch (e) {
