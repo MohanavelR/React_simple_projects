@@ -61,7 +61,7 @@ function Clear(){
     return (
     <div className='password-main-container  flex-column d-flex justify-content-center align-items-center '>
         <h1 className='mb-5'>Password Generator </h1>
-        <div className='password-container p-5 rounded col-7'>
+        <div className='password-container p-5 rounded col-12 col-md-7'>
        {message && 
        <div class="alert text-center alert-success " role="alert">
         Password Copied.
@@ -106,9 +106,9 @@ function Clear(){
          {error && <p className=' mt-4 text-danger'>This Field is can't Write only Read and Copy Your Password</p>}         
     </div> 
     <div className='d-flex gap-4'>
-        <button onClick={Generate} className="btn btn-success">Generate</button>
-        <button onClick={Copy} className="btn btn-warning">Copy</button>
-        <button onClick={Clear} className="btn btn-danger">Clear</button>
+        <button onClick={Generate} className="btn btn-success col-md-4 col-12">Generate</button>
+        <button onClick={Copy} className="btn btn-warning col-md-4  col-12">Copy</button>
+        <button onClick={Clear} className="btn btn-danger col-md-3  col-12">Clear</button>
     </div>          
     </div>
 
